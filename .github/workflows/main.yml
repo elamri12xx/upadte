@@ -3,7 +3,7 @@ name: Auto Update France JSON
 on:
   schedule:
     - cron: '0 */2 * * *'  # كل ساعتين
-  workflow_dispatch:
+  workflow_dispatch:       # تشغيل يدوي من GitHub لو حبيت
 
 jobs:
   update-job:
@@ -29,5 +29,4 @@ jobs:
           git config --global user.name "github-bot"
           git config --global user.email "bot@example.com"
           git add france.json
-          git commit -m "Auto update france.json"
-          git push
+          git diff --cached --quiet || (git commit -m "Auto update france.json" && git push)
