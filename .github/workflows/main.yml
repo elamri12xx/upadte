@@ -2,7 +2,7 @@ name: Auto Update France JSON
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */2 * * *'  # كل ساعتين
   workflow_dispatch:
 
 jobs:
@@ -26,14 +26,9 @@ jobs:
       - name: Run script to fetch data
         run: python scripts/fetch_france.py
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-bot"
-          git config --global user.email "bot@example.com"
-          git add france.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto update france.json"
-            git push
-          fi
+      - name: Commit files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Auto update france.json
+          file_pattern: france.json
+          branch: main
