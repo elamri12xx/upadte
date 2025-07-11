@@ -3,7 +3,7 @@ name: Auto Update France JSON
 on:
   schedule:
     - cron: '0 */2 * * *'  # كل ساعتين
-  workflow_dispatch:
+  workflow_dispatch:       # يسمح بتشغيله يدويًا
 
 jobs:
   update-job:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: true
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,9 +26,10 @@ jobs:
       - name: Run script to fetch data
         run: python scripts/fetch_france.py
 
-      - name: Commit files
+      - name: Commit updated france.json
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Auto update france.json
           file_pattern: france.json
           branch: main
+          github_token: ${{ secrets.PAT_TOKEN }}
