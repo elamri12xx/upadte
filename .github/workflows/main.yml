@@ -2,8 +2,8 @@ name: Auto Update France JSON
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # كل ساعتين
-  workflow_dispatch:       # تشغيل يدوي من GitHub لو حبيت
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
 
 jobs:
   update-job:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,4 +31,9 @@ jobs:
           git config --global user.name "github-bot"
           git config --global user.email "bot@example.com"
           git add france.json
-          git diff --cached --quiet || (git commit -m "Auto update france.json" && git push)
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update france.json"
+            git push
+          fi
