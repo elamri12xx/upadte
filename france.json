@@ -4,13 +4,13 @@ Response:
 HTTP/1.1 100 Continue
 
 HTTP/1.1 403 Forbidden
-Date: Mon, 21 Jul 2025 14:15:48 GMT
+Date: Mon, 21 Jul 2025 16:16:38 GMT
 Content-Type: text/html
 Transfer-Encoding: chunked
 Connection: keep-alive
-CF-RAY: 962b4ffd9b03b8cc-AMS
+CF-RAY: 962c00fdcccf1c8c-AMS
 Mime-Version: 1.0
-Expires: Mon, 21 Jul 2025 14:15:48 GMT
+Expires: Mon, 21 Jul 2025 16:16:38 GMT
 Cache-Control: max-age=0, no-cache, no-store
 Pragma: no-cache
 Access-Control-Expose-Headers: X-ErrorType,X-Reference-Error,x-amzn-errortype,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del,Akamai-Request-BC
@@ -19,13 +19,13 @@ Access-Control-Allow-Credentials: true
 Access-Control-Allow-Methods: GET,POST,OPTIONS
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
-X-Served-By: cache-par-lfpg1960095-PAR, cache-rtm-ehrd2290055-RTM
+X-Served-By: cache-par-lfpg1960027-PAR, cache-rtm-ehrd2290042-RTM
 X-Cache: MISS, MISS
 X-Cache-Hits: 0, 0
-X-Timer: S1753107348.139723,VS0,VE30
+X-Timer: S1753114598.094040,VS0,VE27
 alt-svc: h2=":443"; ma=60
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=wkeRksL6UQxRzmTV8xKOhMiEJM5l%2BRVY9zxn5HrZd6KmHL8WWH%2FVyQdGne7QpoTuUrwQR%2Bf9UG2WnMfFRNlyAOnlZZKQIrzrTWjlGw4QEfUPXObXhAMcyqnm7cff4xvlhZri3ycusfEq9YzDREZBVXK6FUzkeg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=HD8o46S3G2qQ6%2FSkHAeccWSd3KoSHDw8iSesOpOFX5fVdRHL5oM%2Fu4WXo802XhgPkZopirWdBylzcBDwSODRqBtOfQVGlxzjC89CciKXDeF7o63ZKqDfqfqN4B9vE5Gm0oR7RVDnbrX2Win9PPeIMYgVlR6d1Q%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 expect-ct: max-age=86400, enforce
 referrer-policy: same-origin
@@ -33,7 +33,7 @@ x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block
 Server: cloudflare
-server-timing: cfL4;desc="?proto=TCP&rtt=1625&min_rtt=1559&rtt_var=632&sent=3&recv=4&lost=0&retrans=0&sent_bytes=25&recv_bytes=412&delivery_rate=864656&cwnd=250&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=1488&min_rtt=1185&rtt_var=661&sent=2&recv=4&lost=0&retrans=0&sent_bytes=25&recv_bytes=412&delivery_rate=1137552&cwnd=250&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
 
 <HTML><HEAD>
 <TITLE>Access Denied</TITLE>
@@ -41,7 +41,7 @@ server-timing: cfL4;desc="?proto=TCP&rtt=1625&min_rtt=1559&rtt_var=632&sent=3&re
 <H1>Access Denied</H1>
  
 You don't have permission to access "http&#58;&#47;&#47;api&#46;ssai&#46;ftven&#46;fr&#47;v1&#47;session&#47;c6f323e65336fbba9ea766d582216fd61ed74452&#47;SSAIFrance2OTTEMTConfiguration&#47;out&#47;v1&#47;3f5d86a548454a27ab9a06078aa68a03&#47;index&#46;m3u8" on this server.<P>
-Reference&#32;&#35;18&#46;14681160&#46;1753107348&#46;1a6b2fa4
-<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;14681160&#46;1753107348&#46;1a6b2fa4</P>
+Reference&#32;&#35;18&#46;2a681160&#46;1753114598&#46;194640f7
+<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;2a681160&#46;1753114598&#46;194640f7</P>
 </BODY>
 </HTML>
