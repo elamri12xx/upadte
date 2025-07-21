@@ -1,32 +1,31 @@
-HTTP Code: 200
+HTTP Code: 403
 
 Response:
 HTTP/1.1 100 Continue
 
-HTTP/1.1 200 OK
-Date: Sun, 20 Jul 2025 22:12:24 GMT
-Content-Type: application/json
+HTTP/1.1 403 Forbidden
+Date: Mon, 21 Jul 2025 01:10:17 GMT
+Content-Type: text/html
 Transfer-Encoding: chunked
 Connection: keep-alive
-CF-RAY: 9625ccc5cdc85f1e-AMS
-x-amzn-RequestId: eeeb0bdd-bce7-4587-acc2-51286d25bbfd
-Access-Control-Allow-Origin: https://france.tv
-Expires: Sun, 20 Jul 2025 22:12:24 GMT
+CF-RAY: 9626d1594f8497ad-AMS
+Mime-Version: 1.0
+Expires: Mon, 21 Jul 2025 01:10:17 GMT
 Cache-Control: max-age=0, no-cache, no-store
 Pragma: no-cache
 Access-Control-Expose-Headers: X-ErrorType,X-Reference-Error,x-amzn-errortype,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del,Akamai-Request-BC
 Access-Control-Allow-Headers: Range,CMCD-Request,CMCD-Object,CMCD-Status,CMCD-Session
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Methods: GET,POST,OPTIONS
+Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
-X-Served-By: cache-par-lfpg1960074-PAR, cache-rtm-ehrd2290054-RTM
+X-Served-By: cache-par-lfpg1960030-PAR, cache-rtm-ehrd2290044-RTM
 X-Cache: MISS, MISS
 X-Cache-Hits: 0, 0
-X-Timer: S1753049545.639640,VS0,VE53
-Vary: Origin, Accept-Encoding
+X-Timer: S1753060218.837286,VS0,VE24
 alt-svc: h2=":443"; ma=60
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=kYp6E%2BzUyf3AWRvbKDflsGMfw9W1I8fhlP%2B4mMcvyx91773GToCmIlozFESpH66jhqwe48xA3JJIlphgYEAq1bAXDiJxHIRuA7ahiWIxA%2B3pME3%2FFGuxLf%2FNCVao0lqW7bTCJA7VBt5IpQnEswU%2Fu7AAKYgkkw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=R8vN5AbqdHhjz1hVDG144KfhragnYCZFUQucYezK1a41Q8eEUemQtxZAAJNPDZYph0QlUidK%2FXRXq7%2F9Bg2x3h6ufaLnSg%2BdLpJhn75FZctjNbLBemsa48SJaMh5c9wPKjVjs%2FCueb4WZIzzgDuPF2FUqkJWkA%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 expect-ct: max-age=86400, enforce
 referrer-policy: same-origin
@@ -34,6 +33,15 @@ x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block
 Server: cloudflare
-server-timing: cfL4;desc="?proto=TCP&rtt=1347&min_rtt=1338&rtt_var=521&sent=3&recv=4&lost=0&retrans=0&sent_bytes=25&recv_bytes=412&delivery_rate=951305&cwnd=249&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=1495&min_rtt=1452&rtt_var=575&sent=3&recv=4&lost=0&retrans=0&sent_bytes=25&recv_bytes=412&delivery_rate=928374&cwnd=250&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
 
-{"manifestUrl":"/v1/master/c6f323e65336fbba9ea766d582216fd61ed74452/SSAIFrance2OTTEMTConfiguration/out/v1/3f5d86a548454a27ab9a06078aa68a03/index.m3u8?aws.sessionId=1483b03b-f4f5-4900-8cba-66466ab64d1b","trackingUrl":"/v1/tracking/c6f323e65336fbba9ea766d582216fd61ed74452/SSAIFrance2OTTEMTConfiguration/1483b03b-f4f5-4900-8cba-66466ab64d1b"}
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;api&#46;ssai&#46;ftven&#46;fr&#47;v1&#47;session&#47;c6f323e65336fbba9ea766d582216fd61ed74452&#47;SSAIFrance2OTTEMTConfiguration&#47;out&#47;v1&#47;3f5d86a548454a27ab9a06078aa68a03&#47;index&#46;m3u8" on this server.<P>
+Reference&#32;&#35;18&#46;2a681160&#46;1753060217&#46;1740934b
+<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;2a681160&#46;1753060217&#46;1740934b</P>
+</BODY>
+</HTML>
