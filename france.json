@@ -4,14 +4,14 @@ Response:
 HTTP/1.1 100 Continue
 
 HTTP/1.1 200 OK
-Date: Wed, 23 Jul 2025 10:14:45 GMT
+Date: Wed, 23 Jul 2025 12:27:39 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
-CF-RAY: 963a69a4dd081c81-AMS
-x-amzn-RequestId: 432860ad-b4de-4b22-bce4-67753a213dd0
+CF-RAY: 963b2c5388ca1606-AMS
+x-amzn-RequestId: ae9883fb-fe2d-40e1-b5d2-423e9bf685b2
 Access-Control-Allow-Origin: https://france.tv
-Expires: Wed, 23 Jul 2025 10:14:45 GMT
+Expires: Wed, 23 Jul 2025 12:27:39 GMT
 Cache-Control: max-age=0, no-cache, no-store
 Pragma: no-cache
 Access-Control-Expose-Headers: X-ErrorType,X-Reference-Error,x-amzn-errortype,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del,Akamai-Request-BC
@@ -19,14 +19,14 @@ Access-Control-Allow-Headers: Range,CMCD-Request,CMCD-Object,CMCD-Status,CMCD-Se
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Methods: GET,POST,OPTIONS
 Via: 1.1 varnish, 1.1 varnish
-X-Served-By: cache-par-lfpb1150054-PAR, cache-rtm-ehrd2290038-RTM
+X-Served-By: cache-par-lfpg1960053-PAR, cache-rtm-ehrd2290045-RTM
 X-Cache: MISS, MISS
 X-Cache-Hits: 0, 0
-X-Timer: S1753265685.313347,VS0,VE54
+X-Timer: S1753273659.482399,VS0,VE147
 Vary: Origin, Accept-Encoding
 alt-svc: h2=":443"; ma=60
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ohsmUZjcyrdB%2FLPLIV0ckr8yWjsiUW%2F1qKcXBB2WH2%2Fn8VR4qXIeoEGXMuQ93RMoQlcHBzPcXD1FLcGnfIz0i79oh%2F1tZNfR%2F72pnwyM89PR2wnYh7NygHbfZTSpKWNrTtsAaT21QQ94k2MOGy85vILIyDGcyA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=6zFBVCgA32JD%2FmLr08PUdQDRSD7q9i3HJEirD0qiFL1z9l6MeuYkjw%2FECqKFlIkkiQybF3iqCc0m3PR2YM35brySouWI9ca7EqczT3rABCvnZwVO5VbgDDY7I%2FbpxOgdv4fV6%2B3xz75tBqltlAeJhPOLgwnZQw%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 expect-ct: max-age=86400, enforce
 referrer-policy: same-origin
@@ -34,6 +34,6 @@ x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block
 Server: cloudflare
-server-timing: cfL4;desc="?proto=TCP&rtt=1492&min_rtt=1475&rtt_var=565&sent=3&recv=4&lost=0&retrans=0&sent_bytes=25&recv_bytes=412&delivery_rate=913898&cwnd=250&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=1516&min_rtt=1397&rtt_var=609&sent=3&recv=4&lost=0&retrans=0&sent_bytes=25&recv_bytes=412&delivery_rate=964924&cwnd=250&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
 
-{"manifestUrl":"/v1/master/c6f323e65336fbba9ea766d582216fd61ed74452/SSAIFrance2OTTEMTConfiguration/out/v1/3f5d86a548454a27ab9a06078aa68a03/index.m3u8?aws.sessionId=0828e092-14db-45ed-8118-edf790a17db9","trackingUrl":"/v1/tracking/c6f323e65336fbba9ea766d582216fd61ed74452/SSAIFrance2OTTEMTConfiguration/0828e092-14db-45ed-8118-edf790a17db9"}
+{"manifestUrl":"/v1/master/c6f323e65336fbba9ea766d582216fd61ed74452/SSAIFrance2OTTEMTConfiguration/out/v1/3f5d86a548454a27ab9a06078aa68a03/index.m3u8?aws.sessionId=155e94f0-ce7a-4836-9a3b-5991a29baed1","trackingUrl":"/v1/tracking/c6f323e65336fbba9ea766d582216fd61ed74452/SSAIFrance2OTTEMTConfiguration/155e94f0-ce7a-4836-9a3b-5991a29baed1"}
