@@ -4,14 +4,14 @@ Response:
 HTTP/1.1 100 Continue
 
 HTTP/1.1 301 Moved Permanently
-Date: Mon, 11 Aug 2025 16:16:47 GMT
+Date: Mon, 11 Aug 2025 18:19:53 GMT
 Content-Type: text/html
 Content-Length: 167
 Connection: keep-alive
 Cache-Control: max-age=3600
-Expires: Mon, 11 Aug 2025 17:16:47 GMT
+Expires: Mon, 11 Aug 2025 19:19:53 GMT
 Location: https://new-22.fallakatv.eu.org/v1/session/c6f323e65336fbba9ea766d582216fd61ed74452/SSAIFrance2OTTEMTConfiguration/out/v1/3f5d86a548454a27ab9a06078aa68a03/index.m3u8
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=FJQS6X4ZTM8jct%2Bw3P7gzhyOKUM5Yig4og3FwM4R4s2iyOOBNj8P7V4Qgn7QET%2BQTIVbBzG49ZvjxD6O2zK15LxL%2FByoNAIFzAesmibRR6INEvuDZJ3BlMbTXvTidPsuYNJHAfpmO4O7%2BSkKGun3ntRVwN5UOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2FokJHgINztqeh33FaOCeaaxujty8SZuNXI%2BFvt%2BDEbZzgOhzJRFKamvRvL677y1W6OaEZKcaxMBKWPCbfkNo7JfGg34fVjCsKetjQin11Qce2mel0rmMW1Gh1jtoURQ6SCJH5s5R6fYw4qGDYfgcsGAp1XfBAg%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 expect-ct: max-age=86400, enforce
 referrer-policy: same-origin
@@ -19,9 +19,9 @@ x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
 x-xss-protection: 1; mode=block
 Server: cloudflare
-CF-RAY: 96d90a181d0bc73c-AMS
+CF-RAY: 96d9be683a8a0e36-AMS
 alt-svc: h2=":443"; ma=60
-server-timing: cfL4;desc="?proto=TCP&rtt=1482&min_rtt=1479&rtt_var=561&sent=3&recv=4&lost=0&retrans=0&sent_bytes=25&recv_bytes=412&delivery_rate=895086&cwnd=250&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=1821&min_rtt=1747&rtt_var=708&sent=2&recv=4&lost=0&retrans=0&sent_bytes=25&recv_bytes=412&delivery_rate=771608&cwnd=250&unsent_bytes=0&cid=0000000000000000&ts=0&x=0"
 
 <html>
 <head><title>301 Moved Permanently</title></head>
